@@ -186,20 +186,6 @@ button, p, li {
   width: 45%;
 }
 
-@keyframes rotate {
-  0%, 25% {
-    transform: translateX(0deg);
-  }
-  25%, 50% {
-    transform: rotateX(90deg);
-  }
-  50%, 75% {
-    transform: rotateX(180deg);
-  }
-  75%, 100% {
-    transform: rotateX(270deg);
-  }
-}
 .calque-1 {
   overflow: hidden;
   filter: blur(80px);
@@ -268,6 +254,10 @@ button, p, li {
 @media screen and (max-width: 455px) {
   .contener-calques .main-calque .textes .texte .texte-anime {
     height: 100px;
+  }
+  .icones {
+    position: fixed;
+    bottom: 20px;
   }
 }
 @media screen and (max-width: 410px) {

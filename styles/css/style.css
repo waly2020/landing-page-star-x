@@ -169,6 +169,9 @@ button, p, li {
 .main-calque .icones {
   padding-left: 80px;
 }
+.main-calque .icones a {
+  display: inline-block;
+}
 .main-calque .icones .icone {
   width: 40px;
   height: 40px;

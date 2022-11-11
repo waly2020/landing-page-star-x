@@ -176,6 +176,9 @@ button,p,li{
 // end body
 .icones{
     padding-left: $big-padding;
+    a{
+        display: inline-block;
+    }
     .icone{
         width: 40px;
         height: 40px;
